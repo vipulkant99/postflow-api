@@ -1,7 +1,7 @@
 require("dotenv").config()
 const app = require("./app")
 const config = require("./config")
-const {pool } = require("./db")
+const { pool } = require("./db")
 const logger = require("./helpers/logger")
 
 const PORT = config.port
