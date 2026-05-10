@@ -6,6 +6,8 @@ const logger = require("./helpers/logger")
 
 const PORT = config.port
 
+//test comment
+
 app.listen(PORT, async () => {
     logger.info(`Server is running on port ${PORT}`)
     try {
